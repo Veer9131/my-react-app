@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-react-app">
       <div className="App">
         <Routes>
           {/* Default route */}
